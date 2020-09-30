@@ -497,3 +497,41 @@ hr {
     font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
     font-weight: 500;
 }
+
+.links-sections {
+    display: block;
+    margin: 20px 30px;
+}
+
+.logo-goHome a {
+    float: right;
+}
+
+.all-links {
+    clear: right;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+    "column-sec column-sec column-sec column-sec column-sec column-sec";
+}
+
+.titles-col {
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 700;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.column-sec p {
+    color: rgb(0, 0, 0);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: center;
+}

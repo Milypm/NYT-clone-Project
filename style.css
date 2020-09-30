@@ -1,0 +1,207 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    color: #333;
+}
+
+.nav-container {
+    border-bottom: 1px solid #d5dbdb;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding-top: 7px;
+}
+
+.nav-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px 5px 10px 10px;
+    height: 20px;
+    padding-bottom: 2px;
+}
+
+.nav-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -30px;
+}
+
+.menu-icon {
+    width: 10px;
+    height: 7px;
+}
+
+.search-icon {
+    margin-left: 30px;
+    width: 10px;
+    height: 7px;
+}
+
+.space-cosmos a {
+    text-decoration: none;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 14.25px;
+}
+
+.space-cosmos a:hover {
+    text-decoration: underline;
+}
+
+.nav-3 {
+    display: flex;
+}
+
+.subscribe-btn button {
+    margin-right: 7px;
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px 12px 8px;
+    width: 120px;
+    height: 32px;
+}
+
+.subscribe-btn button:hover {
+    background-color: rgb(50, 104, 145);;
+}
+
+.log-in button {
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 11px 12px 8px;
+    width: 63px;
+    height: 32px;
+    letter-spacing: 0.05em;
+}
+
+.log-in button:hover {
+    background-color: rgb(50, 104, 145);;
+}
+
+li {
+    list-style-type: none;
+}
+
+hr {
+    margin 0;
+    color: #D3D3D3;
+}
+
+.header-img-container {
+    display: flex;
+    flex-direction: column;
+    width: 945px;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.article-title {
+    width: 600px;
+    height: 96px;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #121212;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.telescope-img img {
+    width: 945px;
+    height: 531px;
+    margin-bottom: 5px;
+}
+
+.telescope-img p {
+    width: 70%;
+    margin: 0;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+}
+
+.img-credit {
+    color: #888;
+    letter-spacing: 0.01em;
+}
+
+.article-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 48%;
+}
+
+.article-section p {
+    font-size: 1.40rem;
+    line-height: 1.875rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+ 
+}
+
+.author-icons-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+}
+
+.nav-date-icons ul {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 69px;
+    margin-left: -40px;
+}
+
+.date {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+.icons-cont1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 400px;
+}
+
+.mid-Thanks-subscribe {
+    text-align: center;
+    max-width: 650px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 70px;
+}
+
+.mid-Thanks-subscribe hr {
+    width: 30%;
+    opacity: .5;
+}
+
+.mid-Thanks-subscribe p a {
+
+}

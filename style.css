@@ -112,14 +112,17 @@ hr {
     display: flex;
     flex-direction: column;
     width: 945px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
-    margin: 15px auto;
+    margin: 70px auto 0 auto;
 }
 
 .article-title {
     width: 600px;
     height: 96px;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     line-height: 3rem;
     color: #121212;
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
@@ -129,7 +132,8 @@ hr {
 
 .telescope-img img {
     width: 945px;
-    height: 531px;
+    height: 532px;
+    background-size: contain;
     margin-bottom: 5px;
 }
 
@@ -388,4 +392,108 @@ hr {
     width: 156px;
     height: 27px;
     justify-content: space-between;
+}
+
+.more-popular-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px;
+}
+
+.more-popular-section a {
+    text-decoration: none;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 852px;
+}
+
+.left-side hr {
+    width: 100%;
+    color: black;
+    margin-left: 10px;
+}
+
+.more-space-astronomy h5 {
+    margin-left: 10px;
+    color: black;
+}
+
+.more-space-astronomy h5:hover {
+    text-decoration: underline;
+}
+
+.more-editorsTitle {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    color: black;
+    font-size: .9rem;
+
+}
+
+.more-row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.redirect-url {
+    margin: 10px;
+}
+
+.redirect-url img {
+    width: 272px;
+    height: 181px;
+}
+
+.more-info {
+    display: flex;
+    flex-direction: column;
+    justify-self: self-start;
+}
+
+.more-info h3 {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: rgb(18, 18, 18);
+    text-align: left;
+    width: 262px;
+    height: 50px;
+}
+
+.editors-picks h5 {
+    margin-left: 10px;
+}
+
+.editors-picks h5:hover {
+    text-decoration: underline;
+}
+
+.right-side {
+    width: 315px;
+    margin-left: 15px;
+}
+
+.right-side hr {
+    width: 100%;
+    color: black;
+}
+
+.right-side h5 {
+    color: #333;
+}
+
+.most-pop hr {
+    width: 100%;
+    background-color: #D3D3D3;
+    height: 1px;
+    border: 0 none;
+}
+
+.most-pop p {
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    color: rgb(18, 18, 18);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-weight: 500;
 }

@@ -1,16 +1,19 @@
 .main {
-    display: flex;
-    flex-direction: column;
+    display: block;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     color: #333;
 }
 
 .nav-container {
+    float: left;
     border-bottom: 1px solid #d5dbdb;
     background-color: white;
-    position: sticky;
+    position: fixed;
     top: 0;
-    padding-top: 7px;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 10px;
+    
 }
 
 .nav-container ul {
@@ -20,6 +23,7 @@
     margin: 2px 5px 10px 10px;
     height: 20px;
     padding-bottom: 2px;
+    margin-right: 25px;
 }
 
 .nav-1 {
@@ -62,7 +66,7 @@
     background-color: rgb(86, 123, 149);
     border: 1px solid rgb(50, 104, 145);
     color: rgb(255, 255, 255);
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
     border-radius: 3px;
     cursor: pointer;
@@ -155,7 +159,11 @@ hr {
     font-size: 1.40rem;
     line-height: 1.875rem;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
- 
+}
+
+.p-bold {
+    font-weight: 1000;
+    font-weight: bolder;
 }
 
 .author-icons-cont {
@@ -204,4 +212,118 @@ hr {
 
 .mid-Thanks-subscribe p a {
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.theory-inflation {
+    width: 945px;
+    height: 753.6px;
+    margin: 0 auto 40px auto;
+
+}
+
+.theory-inflation h3 {
+    font-size: 1.20rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+    color: #000;
+}
+
+.inflation-p {
+    width: 904px;
+    margin-top: -15px;
+    font-size: .875rem;
+    color: #666;
+    line-height: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+
+}
+
+.grid-inflation{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "inflation-descrip inflation-descrip inflation-descrip inflation-descripExtra"
+    "inflation-descrip inflation-descripExtra inflation-descrip inflation-descrip";
+    width: 945px;
+    height: 576px;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #333;
+    background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.inflation-descrip {
+    width: 200px;
+    height: 120.5px;
+    margin-top: 140px;
+}
+
+.inflation-descripExtra {
+    width: 228px;
+    height: 139.5px;
+    margin-top: 140px;
+}
+
+.descrip-bold  {
+    color: #000000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: .05em;
+    margin-right: 5px;
+}
+
+.theory-inflation hr {
+    float: left;
+    width: 5%;
+    color: black;
+}
+
+.inflation-author {
+    padding-top: 20px;
+    clear: left;
+}
+
+.video-section {
+    margin: 20px auto 20px auto;
+}
+
+.video-section p {
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    text-align: left;
+    display: block;
+    padding: 0;
+    margin: 0 auto 0 auto;
+}
+
+.video-p-bold {
+    font-size: 17px;
+    line-height: 1.25rem;
+}
+
+.credits {
+    color: #888;
+    letter-spacing: 0.001em;
+    font-size: 14px;
 }

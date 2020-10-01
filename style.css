@@ -104,7 +104,7 @@ li {
 }
 
 hr {
-    margin 0;
+    margin: 0;
     color: #D3D3D3;
 }
 
@@ -152,9 +152,8 @@ hr {
 }
 
 .article-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    text-align: left;
     margin: 0 auto;
     width: 48%;
     clear: left;
@@ -182,7 +181,6 @@ hr {
 .author-icons-cont {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     width: 100%;
     margin: 0;
 }
@@ -208,9 +206,63 @@ hr {
     width: 400px;
 }
 
+.icon-fb {
+    resize: both;
+    width: 6px;
+    height: 14px;
+}
+
+.icon-twit {
+    resize: both;
+    width: 13px;
+    height: 11px;
+}
+
+.icon-mail {
+    resize: both;
+    width: 13px;
+    height: 9px;
+}
+
+.icon-share {
+    resize: both;
+    width: 14px;
+    height: 11px;
+}
+
+.icon-mark {
+    resize: both;
+    width: 16px;
+    height: 25px;
+}
+
+.icon-comment {
+    resize: both;
+    width: 36px;
+    height: 24px;
+}
+
 .aside-cont {
     float: right;
     margin-right: 40px;
+    width: 200px;
+    margin-top: -60px;
+}
+
+.aside-cont hr {
+    width: 100%;
+    background-color: #D3D3D3;
+    height: 1px;
+    border: 0 none;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+.aside-cont p {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    color: black;
+    font-size: .8rem;
+    font-weight: bolder;
 }
 
 .aside-1 {
@@ -242,35 +294,37 @@ hr {
 .mid-Thanks-subscribe {
     clear: left;
     text-align: center;
-    line-height: 0.0001px;
-}
-
-.mid-Thanks-subscribe hr {
-    width: 30%;
-    background-color: #D3D3D3;
-    height: 1px;
-    border: 0 none;
-}
-
-.mid-Thanks-subscribe p {
-    color: #333;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 15px;
-    font-weight: bolder;
-    height: 19px;
-}
-
-.mid-Thanks-subscribe a {
-    color: rgb(50, 104, 145);
-    text-decoration: none;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 15px;
-    font-weight: bolder;
-    height: 19px;
 }
 
 .thanks-hr2 {
-    margin-top: 34px;
+    width: 10%;
+    background-color: #D3D3D3;
+    height: 1px;
+    border: 0 none;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.thnx-read {
+    line-height: 0.001;
+    margin-bottom: 25px;
+}
+
+.thnx-read p {
+    color: #333;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    height: 19px;
+}
+
+.thnx-read a {
+    color: rgb(50, 104, 145);
+    text-decoration: none;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    height: 19px;
 }
 
 .theory-inflation {

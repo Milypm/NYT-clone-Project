@@ -15,7 +15,7 @@
     overflow: hidden;
     width: 100%;
     padding-top: 10px;
-    
+    z-index: 1;
 }
 
 .nav-container ul {
@@ -153,7 +153,8 @@ li {
 }
 
 .author-icons {
-    margin-top: 15px;
+    margin-top: 40px;
+    margin-bottom: -30px;
 }
 
 .author {
@@ -167,6 +168,11 @@ li {
 
 .author a {
     color: #333;
+    text-decoration-line: underline;
+}
+
+.author a:hover {
+    text-decoration-line: none;
 }
 
 .p-bold {
@@ -176,7 +182,7 @@ li {
 
 .nav-date-icons {
     width: 48%;
-    margin: 15px auto;
+    margin: 30px auto;
     display: block;
 }
 
@@ -194,13 +200,14 @@ li {
     width: 100%;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     color: #333;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 0.02em;
+    margin-top: 10px;
 }
 
 .icons-cont1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-start;
     margin: 0;
     width: 1000px;
@@ -208,7 +215,7 @@ li {
 
 .icons-cont-4 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 195px;
     margin-left: 90px;
 }
@@ -216,43 +223,102 @@ li {
 .mark-comm-cont {
     display: flex;
     justify-content: space-between;
-    margin-top: -15px;
+    margin-top: 0;
     width: 50px;
 }
 
-.fb-icon {
-    resize: both;
-    width: 1px;
-    height: 6px;
-}
-
-.twit-icon {
-    resize: both;
-    width: 13px;
-    height: 11px;
-}
-
-.email-icon {
-    resize: both;
-    width: 13px;
-    height: 9px;
-}
-
-.share-icon {
-    resize: both;
-    width: 14px;
-    height: 11px;
-}
-
 .mark-icon {
-    resize: both;
-    margin-top: 15px;
-    margin-right: 25px;
+    font-size: 1.8rem;
+    opacity: .8;
+}
+
+.mark-icon:hover {
+    opacity: .3;
+    cursor: pointer;
+}
+
+.comment-icon {
+    font-size: 1.8rem;
+    margin-left: 15px;
+    opacity: .8;
+}
+
+.comment-icon:hover {
+    opacity: .3;
+    cursor: pointer;
 }
 
 .icon-num {
     font-size: smaller;
     float: left;
+}
+
+.fb-icon {
+    font-size: .8rem;
+    border-radius: 100%;
+    background-color: #E8E8E8;
+    opacity: .8;
+    color: black;
+    padding: 8px 6px;
+    width: 105%;
+    text-align: center;
+}
+
+.fb-icon:hover {
+    background-color: white;
+    border: 2px solid #E8E8E8;
+    cursor: pointer;
+}
+
+.twit-icon {
+    font-size: .8rem;
+    border-radius: 100%;
+    background-color: #E8E8E8;
+    padding: 8px 6px;
+    width: 90%;
+    text-align: center;
+    opacity: .8;
+    color: black;
+}
+
+.twit-icon:hover {
+    background-color: white;
+    border: 2px solid #E8E8E8;
+    cursor: pointer;
+}
+
+.email-icon {
+    font-size: .8rem;
+    border-radius: 100%;
+    background-color: #E8E8E8;
+    padding: 8px 6px;
+    width: 90%;
+    text-align: center;
+    opacity: .8;
+    color: black;
+}
+
+.email-icon:hover {
+    background-color: white;
+    border: 2px solid #E8E8E8;
+    cursor: pointer;
+}
+
+.share-icon {
+    font-size: .8rem;
+    border-radius: 100%;
+    background-color: #E8E8E8;
+    padding: 8px 6px;
+    width: 90%;
+    text-align: center;
+    opacity: .8;
+    color: black;
+}
+
+.share-icon:hover {
+    background-color: white;
+    border: 2px solid #E8E8E8;
+    cursor: pointer;
 }
 
 /*************************** A R T I C L E  S E C T I O N *********************************/

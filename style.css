@@ -518,16 +518,17 @@ li {
 .endArticle-btn-icons button {
     width: 330px;
     height: 36px;
-    background-color: rgb(50, 104, 145);
+    background-color: rgb(86, 123, 149);
     border: 1px solid rgb(50, 104, 145);
     border-radius: 3px;
     color: white;
     display: block;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 0.8125rem;
-    font-weight: 600;
+    font-weight: 550;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 /************************* S U G G E S T E D / P O P U L A R  L I N K S  S E C T I O N **********************/
@@ -535,17 +536,19 @@ li {
 .more-popular-section {
     display: flex;
     justify-content: space-between;
-    margin: 50px 30px;
+    margin: 60px 30px;
 }
 
 .more-popular-section a {
     text-decoration: none;
+    color: black;
 }
 
 .left-side {
     display: flex;
     flex-direction: column;
     width: 852px;
+    padding-right: 10px;
 }
 
 .left-side hr {
@@ -567,11 +570,14 @@ li {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     color: black;
     font-size: .9rem;
+    margin-top: 20px;
 }
 
 .more-row {
     display: flex;
     justify-content: flex-start;
+    margin-top: -20px;
+    margin-bottom: 25px;
 }
 
 .redirect-url {
@@ -587,15 +593,65 @@ li {
     display: flex;
     flex-direction: column;
     justify-self: self-start;
+    font-family: nyt-cheltenham,georgia,times new roman,times,serif;
 }
 
-.more-info h3 {
-    font-size: 1.125rem;
+.img-credit {
+    font-size: .7rem;
     line-height: 1.375rem;
+    display: block;
+    text-align: right;
+    margin: 0;
+}
+
+.img-title {
+    font-size: 1.11rem;
+    line-height: 1.3rem;
     color: rgb(18, 18, 18);
     text-align: left;
-    width: 262px;
-    height: 50px;
+    margin-top: 0;
+    letter-spacing: 0.3px;
+    width: 95%;
+    font-weight: 500;
+}
+
+.img-title:hover {
+    color: #707070;
+}
+
+.img-title-3 {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1.11rem;
+    font-weight: 500;
+}
+
+.img-title-3:hover {
+    color: #707070;
+}
+
+.img-title-2 {
+    margin-top: 0px;
+    padding: 0;
+    width: 100%;
+    font-size: 1.11rem;
+    font-weight: 500;
+}
+
+.img-title-2:hover {
+    color: #707070;
+}
+
+.img-date {
+    letter-spacing: 0.3px;
+    color: rgb(153, 153, 153);
+    font-family: helvetica, arial, sans-serif;
+    font-size: .8rem;
+    margin-top: -10px;
+}
+
+.editor-upHr {
+    margin-top: -20px;
 }
 
 .editors-picks h5 {
@@ -608,7 +664,6 @@ li {
 
 .right-side {
     width: 315px;
-    margin-left: 15px;
 }
 
 .right-side hr {
@@ -620,6 +675,19 @@ li {
     color: #333;
 }
 
+.img-title-r {
+    font-size: 1.9rem;
+    color: rgb(18, 18, 18);
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-weight: 500;
+}
+
+.most-pop {
+    margin-top: -10px;
+}
+
 .most-pop hr {
     width: 100%;
     background-color: #D3D3D3;
@@ -627,19 +695,15 @@ li {
     border: 0 none;
 }
 
-.most-pop p {
-    font-size: 1.1875rem;
-    line-height: 1.4375rem;
-    color: rgb(18, 18, 18);
-    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-    font-weight: 500;
+.most-pop a:hover {
+    color: #707070;
 }
 
 /********************************** L I N K S  L I S T S - L A S T  S E C T I O N ******************************/
 
 .links-sections {
     display: block;
-    margin: 20px 30px;
+    margin: 25px 30px;
 }
 
 .logo-goHome {
@@ -652,6 +716,7 @@ li {
     background-color: #D3D3D3;
     height: 2px;
     border: 0 none;
+    margin-bottom: 10px;
 }
 
 .go-home {
@@ -671,14 +736,8 @@ li {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
     "column-sec column-sec column-sec column-sec column-sec column-sec";
-}
-
-.titles-col {
-    text-transform: uppercase;
-    color: rgb(51, 51, 51);
-    font-size: 13px;
-    font-weight: 700;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
 .column-sec {
@@ -688,17 +747,36 @@ li {
     line-height: 15px;
 }
 
-.column-sec p {
+.p-link {
     color: rgb(0, 0, 0);
     font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 13px;
-    font-weight: 500;
+    font-size: 12px;
     line-height: 16px;
 }
 
-.column-sec p:hover {
+.titles-col {
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: bold;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.p-link:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.link-bold {
+    font-weight: bolder;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -15px;
+    width: 100%;
+}
+
+.icon1 {
+    display: flex;
 }
 
 .all-links hr {
@@ -723,9 +801,4 @@ li {
     font-family: nyt-franklin,helvetica,arial,sans-serif;
     text-decoration: none;
     font-size: 10px;
-}
-
-.footer-cont p:hover {
-    text-decoration: underline;
-    cursor: pointer;
 }

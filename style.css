@@ -157,6 +157,7 @@ hr {
     align-items: center;
     margin: 0 auto;
     width: 48%;
+    clear: left;
 }
 
 .article-section p {
@@ -168,6 +169,14 @@ hr {
 .p-bold {
     font-weight: 1000;
     font-weight: bolder;
+}
+
+.article-anchor {
+    color: #326891;
+}
+
+.article-anchor:hover {
+    text-decoration: none;
 }
 
 .author-icons-cont {
@@ -199,35 +208,70 @@ hr {
     width: 400px;
 }
 
-.mid-Thanks-subscribe {
-    text-align: center;
-    max-width: 650px;
-    max-height: 50px;
-    width: auto;
-    height: auto;
+.aside-cont {
+    float: right;
+    margin-right: 40px;
+}
+
+.aside-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-2 {
+    display: flex;
+}
+
+.aside-2 img {
+    width: 75px;
+    height: 75px;
+}
+
+.aside-2 p {
+    width: 125px;
+    height: 68px;
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    font-size: 14px;
+    line-height: 17px;
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+    margin-left: 10px;
     margin-top: 5px;
-    margin-bottom: 70px;
+}
+
+.mid-Thanks-subscribe {
+    clear: left;
+    text-align: center;
+    line-height: 0.0001px;
 }
 
 .mid-Thanks-subscribe hr {
     width: 30%;
-    opacity: .5;
+    background-color: #D3D3D3;
+    height: 1px;
+    border: 0 none;
 }
 
-.mid-Thanks-subscribe p a {
-
+.mid-Thanks-subscribe p {
+    color: #333;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    height: 19px;
 }
 
+.mid-Thanks-subscribe a {
+    color: rgb(50, 104, 145);
+    text-decoration: none;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    height: 19px;
+}
 
-
-
-
-
-
-
-
-
-
+.thanks-hr2 {
+    margin-top: 34px;
+}
 
 .theory-inflation {
     width: 945px;
@@ -429,7 +473,6 @@ hr {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     color: black;
     font-size: .9rem;
-
 }
 
 .more-row {
@@ -503,8 +546,27 @@ hr {
     margin: 20px 30px;
 }
 
-.logo-goHome a {
+.logo-goHome {
+    display: block;
+    margin-top: 20px;
+}
+
+.logo-goHome hr {
+    width: 100%;
+    background-color: #D3D3D3;
+    height: 2px;
+    border: 0 none;
+}
+
+.go-home {
     float: right;
+    color: rgb(86, 123, 149);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 10px;
 }
 
 .all-links {
@@ -523,6 +585,13 @@ hr {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
+.column-sec {
+    width: 150px;
+    height: 25px;
+    margin: 0;
+    line-height: 15px;
+}
+
 .column-sec p {
     color: rgb(0, 0, 0);
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -531,7 +600,34 @@ hr {
     line-height: 16px;
 }
 
+.column-sec p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.all-links hr {
+    width: 100%;
+    background-color: #D3D3D3;
+    height: 2px;
+    border: 0 none;
+}
+
 .footer-cont {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 470px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.footer-cont p {
+    color: #666;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.footer-cont p:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

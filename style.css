@@ -4,6 +4,8 @@
     color: #333;
 }
 
+/******************************* N A V B A R ********************************/
+
 .nav-container {
     float: left;
     border-bottom: 1px solid #d5dbdb;
@@ -35,12 +37,14 @@
 .menu-icon {
     width: 10px;
     height: 7px;
+    cursor: pointer;
 }
 
 .search-icon {
     margin-left: 30px;
     width: 10px;
     height: 7px;
+    cursor: pointer;
 }
 
 .space-cosmos a {
@@ -103,10 +107,7 @@ li {
     list-style-type: none;
 }
 
-hr {
-    margin: 0;
-    color: #D3D3D3;
-}
+/******************************** H E A D E R - I M A G E - A U T H O R / I C O N S *****************************/
 
 .header-img-container {
     display: flex;
@@ -151,18 +152,21 @@ hr {
     letter-spacing: 0.01em;
 }
 
-.article-section {
-    display: block;
-    text-align: left;
-    margin: 0 auto;
-    width: 48%;
-    clear: left;
+.author-icons {
+    margin-top: 15px;
 }
 
-.article-section p {
-    font-size: 1.40rem;
-    line-height: 1.875rem;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+.author {
+    margin-left: 330px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    color: #333;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    font-weight: bolder;
+}
+
+.author a {
+    color: #333;
 }
 
 .p-bold {
@@ -170,19 +174,10 @@ hr {
     font-weight: bolder;
 }
 
-.article-anchor {
-    color: #326891;
-}
-
-.article-anchor:hover {
-    text-decoration: none;
-}
-
-.author-icons-cont {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0;
+.nav-date-icons {
+    width: 48%;
+    margin: 15px auto;
+    display: block;
 }
 
 .nav-date-icons ul {
@@ -197,50 +192,94 @@ hr {
     display: block;
     text-align: left;
     width: 100%;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    color: #333;
+    font-size: 13px;
+    letter-spacing: 0.02em;
 }
 
 .icons-cont1 {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     margin: 0;
-    width: 400px;
+    width: 1000px;
 }
 
-.icon-fb {
+.icons-cont-4 {
+    display: flex;
+    justify-content: space-between;
+    width: 195px;
+    margin-left: 90px;
+}
+
+.mark-comm-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+    width: 50px;
+}
+
+.fb-icon {
     resize: both;
-    width: 6px;
-    height: 14px;
+    width: 1px;
+    height: 6px;
 }
 
-.icon-twit {
+.twit-icon {
     resize: both;
     width: 13px;
     height: 11px;
 }
 
-.icon-mail {
+.email-icon {
     resize: both;
     width: 13px;
     height: 9px;
 }
 
-.icon-share {
+.share-icon {
     resize: both;
     width: 14px;
     height: 11px;
 }
 
-.icon-mark {
+.mark-icon {
     resize: both;
-    width: 16px;
-    height: 25px;
+    margin-top: 15px;
+    margin-right: 25px;
 }
 
-.icon-comment {
-    resize: both;
-    width: 36px;
-    height: 24px;
+.icon-num {
+    font-size: smaller;
+    float: left;
 }
+
+/*************************** A R T I C L E  S E C T I O N *********************************/
+
+.article-section {
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    width: 48%;
+    clear: left;
+}
+
+.article-section p {
+    font-size: 1.40rem;
+    line-height: 1.875rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+.article-anchor {
+    color: #326891;
+}
+
+.article-anchor:hover {
+    text-decoration: none;
+}
+
+/****************************** A S I D E  S E C T I O N ******************************/
 
 .aside-cont {
     float: right;
@@ -291,6 +330,8 @@ hr {
     margin-top: 5px;
 }
 
+/***************************** A R T I C L E  S E C T I O N *******************************/
+
 .mid-Thanks-subscribe {
     clear: left;
     text-align: center;
@@ -326,6 +367,8 @@ hr {
     font-weight: bolder;
     height: 19px;
 }
+
+/************************** G R I D : I N F L A T I O N  I M G *************************/
 
 .theory-inflation {
     width: 945px;
@@ -406,6 +449,8 @@ hr {
     clear: left;
 }
 
+/************************ A R T I C L E  S E C T I O N : V I D E O - E N D *****************************/
+
 .video-section {
     margin: 20px auto 20px auto;
 }
@@ -485,12 +530,7 @@ hr {
     text-transform: uppercase;
 }
 
-.last-icons {
-    display: flex;
-    width: 156px;
-    height: 27px;
-    justify-content: space-between;
-}
+/************************* S U G G E S T E D / P O P U L A R  L I N K S  S E C T I O N **********************/
 
 .more-popular-section {
     display: flex;
@@ -595,6 +635,8 @@ hr {
     font-weight: 500;
 }
 
+/********************************** L I N K S  L I S T S - L A S T  S E C T I O N ******************************/
+
 .links-sections {
     display: block;
     margin: 20px 30px;
@@ -665,6 +707,8 @@ hr {
     height: 2px;
     border: 0 none;
 }
+
+/*************************************** F O O T E R ***********************************************/
 
 .footer-cont {
     display: flex;

@@ -1,6 +1,6 @@
 # NYT-clone-Project
 
-*This are some images of this project:*
+*These are some images of this project:*
 
 ![screenshot](images/project-img-readme.png)
 ![screenshot](images/project-img2-readme.png)

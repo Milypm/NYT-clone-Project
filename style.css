@@ -15,7 +15,8 @@
     overflow: hidden;
     width: 100%;
     padding-top: 10px;
-    z-index: 1;
+    z-index: 2;
+    margin: 2;
 }
 
 .nav-container ul {
@@ -80,6 +81,7 @@
     font-weight: bold;
     cursor: pointer;
     text-transform: uppercase;
+    letter-spacing: 0.05em;
     padding: 0;
 }
 
@@ -90,16 +92,10 @@
 .log-in button {
     background-color: rgb(86, 123, 149);
     border: 1px solid rgb(50, 104, 145);
-    color: rgb(255, 255, 255);
-    font-size: 9.5px;
-    font-weight: bold;
     border-radius: 3px;
     cursor: pointer;
-    text-transform: uppercase;
-    padding: 11px 12px 8px;
     width: 63px;
     height: 32px;
-    letter-spacing: 0.05em;
 }
 
 .log-in button:hover {
@@ -325,7 +321,8 @@ li {
     font-size: 1.5rem;
     margin-left: 15px;
     opacity: .8;
-    z-index: 2;
+    background-color: transparent;
+    z-index: 1;
 }
 
 .comment-icon:hover {
@@ -640,13 +637,12 @@ li {
 }
 
 .more-space-astronomy {
-    margin: -10px;
-    width: 100%;
+    width: 852px;
 }
 
 .more-space-astronomy h5 {
-    margin-left: 10px;
     color: black;
+    margin-bottom: 29px;
 }
 
 .more-space-astronomy h5:hover {
@@ -657,19 +653,15 @@ li {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     color: black;
     font-size: .9rem;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .more-row {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-top: -15px;
-    margin-bottom: 25px;
-    padding: 0;
-}
-
-.redirect-url {
-    margin: 10px;
+    margin-bottom: 35px;
+    width: 852px;
 }
 
 .redirect-url img {
@@ -682,6 +674,7 @@ li {
     flex-direction: column;
     justify-self: self-start;
     font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+    width: 272px;
 }
 
 .img-credit {
@@ -740,17 +733,13 @@ li {
 }
 
 .editors-picks {
-    margin: 0;
     border-top: 1px solid black;
-    padding:0;
-}
-
-.last-r {
-    padding-right: 30px;
 }
 
 .editors-picks h5 {
     color: #333;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .editors-picks h5:hover {
@@ -764,6 +753,7 @@ li {
 
 .right-side h5 {
     color: #333;
+    margin-top: 18px;
 }
 
 .img-title-r {
@@ -870,10 +860,14 @@ li {
     display: flex;
 }
 
+.column-sec img:hover {
+    cursor: pointer;
+}
+
 .all-links hr {
     width: 180px;
     background-color: #D3D3D3;
-    height: 2px;
+    height: 1px;
     border: 0 none;
 }
 
@@ -888,11 +882,13 @@ li {
 .foot {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 470px;
+    margin-top: 415px;
     margin-right: 80px;
     margin-left: 80px;
-    margin-bottom: 70px;
+    margin-bottom: 65px;
+    padding-top: 1px;
     width: 90%;
+    border-top: 1px solid #D3D3D3;
 }
 
 .footer-cont p {
@@ -912,9 +908,17 @@ li {
     bottom: 0;
     overflow: hidden;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     height: 60px;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.subsMain-cont {
+    clear: left;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .beg-subscribers {
@@ -924,21 +928,15 @@ li {
     color: black;
     font-size: 14px;
     width: 28%;
-    margin-right: 250px;
-}
-
-.subsMain-cont {
-    display: flex;
-    justify-content: end;
-    margin-top: 10px;
+    margin: 20px 250px 20px 70px;
 }
 
 .subs-up {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 12%;
-    margin-top: 4px;
-    margin-right: 60px;
+    margin-top: 10px;
+    margin-right: 70px;
 }
 
 .subs-text {
@@ -948,6 +946,7 @@ li {
     color: black;
     font-size: 11.5px;
     margin-top: 12px;
+    margin-right: 40px;
 }
 
 .fa-chevron-up {

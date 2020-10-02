@@ -69,15 +69,18 @@
     margin-right: 7px;
     background-color: rgb(86, 123, 149);
     border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    width: 120px;
+    height: 32px;
+}
+
+.btn-text {
     color: rgb(255, 255, 255);
     font-size: 10px;
     font-weight: bold;
-    border-radius: 3px;
     cursor: pointer;
     text-transform: uppercase;
-    padding: 10px 12px 8px;
-    width: 120px;
-    height: 32px;
+    padding: 0;
 }
 
 .subscribe-btn button:hover {
@@ -88,7 +91,7 @@
     background-color: rgb(86, 123, 149);
     border: 1px solid rgb(50, 104, 145);
     color: rgb(255, 255, 255);
-    font-size: 10px;
+    font-size: 9.5px;
     font-weight: bold;
     border-radius: 3px;
     cursor: pointer;
@@ -228,6 +231,79 @@ li {
     margin-left: 90px;
 }
 
+.fb-icon {
+    font-size: .8rem;
+    border-radius: 100%;
+    background-color: #E8E8E8;
+    border: 2px solid #E8E8E8;
+    opacity: .8;
+    color: black;
+    padding: 7px 5px;
+    width: 75%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.fb-icon:hover {
+    background-color: white;
+    border: 2px solid #E8E8E8;
+    cursor: pointer;
+}
+
+.twit-icon {
+    font-size: .8rem;
+    border-radius: 100%;
+    background-color: #E8E8E8;
+    border: 2px solid #E8E8E8;
+    padding: 7px 5px;
+    width: 80%;
+    text-align: center;
+    opacity: .8;
+    color: black;
+}
+
+.twit-icon:hover {
+    background-color: white;
+    border: 2px solid #E8E8E8;
+    cursor: pointer;
+}
+
+.email-icon {
+    font-size: .8rem;
+    border-radius: 100%;
+    background-color: #E8E8E8;
+    border: 2px solid #E8E8E8;
+    padding: 7px 5px;
+    width: 80%;
+    text-align: center;
+    opacity: .8;
+    color: black;
+}
+
+.email-icon:hover {
+    background-color: white;
+    border: 2px solid #E8E8E8;
+    cursor: pointer;
+}
+
+.share-icon {
+    font-size: .8rem;
+    border-radius: 100%;
+    background-color: #E8E8E8;
+    border: 2px solid #E8E8E8;
+    padding: 7px 5px;
+    width: 80%;
+    text-align: center;
+    opacity: .8;
+    color: black;
+}
+
+.share-icon:hover {
+    background-color: white;
+    border: 2px solid #E8E8E8;
+    cursor: pointer;
+}
+
 .mark-comm-cont {
     display: flex;
     justify-content: space-between;
@@ -249,7 +325,7 @@ li {
     font-size: 1.5rem;
     margin-left: 15px;
     opacity: .8;
-    z-index: 1;
+    z-index: 2;
 }
 
 .comment-icon:hover {
@@ -263,74 +339,6 @@ li {
     font-size: .8rem;
     cursor: pointer;
     color: black;
-}
-
-.fb-icon {
-    font-size: .8rem;
-    border-radius: 100%;
-    background-color: #E8E8E8;
-    opacity: .8;
-    color: black;
-    padding: 8px 6px;
-    width: 105%;
-    text-align: center;
-}
-
-.fb-icon:hover {
-    background-color: white;
-    border: 2px solid #E8E8E8;
-    cursor: pointer;
-}
-
-.twit-icon {
-    font-size: .8rem;
-    border-radius: 100%;
-    background-color: #E8E8E8;
-    padding: 8px 6px;
-    width: 90%;
-    text-align: center;
-    opacity: .8;
-    color: black;
-}
-
-.twit-icon:hover {
-    background-color: white;
-    border: 2px solid #E8E8E8;
-    cursor: pointer;
-}
-
-.email-icon {
-    font-size: .8rem;
-    border-radius: 100%;
-    background-color: #E8E8E8;
-    padding: 8px 6px;
-    width: 90%;
-    text-align: center;
-    opacity: .8;
-    color: black;
-}
-
-.email-icon:hover {
-    background-color: white;
-    border: 2px solid #E8E8E8;
-    cursor: pointer;
-}
-
-.share-icon {
-    font-size: .8rem;
-    border-radius: 100%;
-    background-color: #E8E8E8;
-    padding: 8px 6px;
-    width: 90%;
-    text-align: center;
-    opacity: .8;
-    color: black;
-}
-
-.share-icon:hover {
-    background-color: white;
-    border: 2px solid #E8E8E8;
-    cursor: pointer;
 }
 
 /*************************** A R T I C L E  S E C T I O N *********************************/
@@ -375,7 +383,7 @@ li {
     margin-bottom: 15px;
 }
 
-.aside-cont p {
+.aside-cont h2 {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     color: black;
     font-size: .8rem;
@@ -615,6 +623,7 @@ li {
     display: flex;
     justify-content: space-between;
     margin: 60px 30px;
+    padding: 0;
 }
 
 .more-popular-section a {
@@ -626,13 +635,13 @@ li {
     display: flex;
     flex-direction: column;
     width: 852px;
-    padding-right: 10px;
+    padding-top: 10px;
+    border-top: 1px solid black;
 }
 
-.left-side hr {
+.more-space-astronomy {
+    margin: -10px;
     width: 100%;
-    color: black;
-    margin-left: 10px;
 }
 
 .more-space-astronomy h5 {
@@ -654,8 +663,9 @@ li {
 .more-row {
     display: flex;
     justify-content: flex-start;
-    margin-top: -20px;
+    margin-top: -15px;
     margin-bottom: 25px;
+    padding: 0;
 }
 
 .redirect-url {
@@ -729,12 +739,18 @@ li {
     margin-top: -10px;
 }
 
-.editor-upHr {
-    margin-top: -20px;
+.editors-picks {
+    margin: 0;
+    border-top: 1px solid black;
+    padding:0;
+}
+
+.last-r {
+    padding-right: 30px;
 }
 
 .editors-picks h5 {
-    margin-left: 10px;
+    color: #333;
 }
 
 .editors-picks h5:hover {
@@ -743,11 +759,7 @@ li {
 
 .right-side {
     width: 315px;
-}
-
-.right-side hr {
-    width: 100%;
-    color: black;
+    border-top: 1px solid black;
 }
 
 .right-side h5 {

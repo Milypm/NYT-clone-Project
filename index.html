@@ -14,27 +14,39 @@
 
 <body>
 
-    
+    <!--------------------------------------------- N A V B A R ------------------------------------------------------------------>
+
     <nav class="nav-container">
 
         <ul>
 
             <div class="nav-1">
+
                 <li class="menu-icon"><i class="fas fa-bars"></i></li>
                 <li class="search-icon"><i class="fas fa-search"></i></li>
-                <li class="space-cosmos"><a href="https://www.nytimes.com/section/science/space">space & cosmos</a></li>
+                <li class="space-cosmos"><a href="https://www.nytimes.com/section/science/space" target="_blank">space & cosmos</a></li>
+
             </div>
 
-            <li class="nav-2"><a href="https://www.nytimes.com/"><img src="images/nyt-logo.png"></a></li>
+            <li class="nav-2"><a href="https://www.nytimes.com/" target="_blank"><img src="images/nyt-logo.png"></a></li>
 
             <div class="nav-3">
-                <li class="subscribe-btn"><button type="button">subscribe now</button></li>
-                <li class="log-in"><button type="button">log in</button></li>
+
+                <a href="https://www.nytimes.com/subscription?campaignId=797YR" target="_blank"><li class="subscribe-btn">
+                    <button type="button">subscribe now</button></li></a>
+                <a href="https://myaccount.nytimes.com/auth/login?response_type=cookie&client_id=vi&redirect_uri=https%3A%2
+                    F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps
+                    %253A%252F%252Fwww.nytimes.com%252F2014%252F03%252F18%252Fscience%252Fspace%252Fdetection-of-waves-in-space-
+                    buttresses-landmark-theory-of-big-bang.html%253F_r%253D0&asset=masthead" target="_blank"><li class="log-in">
+                    <button type="button">log in</button></li></a>
+
             </div>
 
         </ul>
         
     </nav>
+
+    <!------------------------------------- H E A D E R - I M A G E - A U T H O R / I C O N S ----------------------------------------->
 
     <main class="main">
     
@@ -47,10 +59,10 @@
             </header>
         
             <div class="telescope-img">
-                <img src="images/telescope-man.webp" alte="Alan Guth Image">
-                <p>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which 
+                <img src="images/telescope-man.webp" alt="Alan Guth Image">
+                <p class="images-p-bold">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which 
                     explains how the universe expanded so uniformly and so quickly in the instant after the Big 
-                    Bang 13.8 billion years ago. <span class="img-credit">Rick Friedman for The New York Times</span></p>
+                    Bang 13.8 billion years ago.<span class="credits"> Rick Friedman for The New York Time</span></p>
             </div>
 
         </section>
@@ -59,7 +71,7 @@
 
             <div class="author">
 
-                <p>By<a href="https://www.nytimes.com/by/dennis-overbye"> Dennis Overbye</a></p>
+                <p>By<a href="https://www.nytimes.com/by/dennis-overbye" target="_blank"> Dennis Overbye</a></p>
                 
             </div>
     
@@ -73,8 +85,19 @@
     
                         <div class="icons-cont-4">
     
-                            <li class="icon-fb"><i class="fab fa-facebook-f fb-icon"></i></li>
-                            <li class="icon-twit"><i class="fab fa-twitter twit-icon"></i></li>
+                            <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=9869919170&signed_next=1&next=https%
+                                3A%2F%2Fwww.facebook.com%2Fdialog%2Ffeed%3Fapp_id%3D9869919170%26link%3Dhttps%253A%252F%252Fwww.nytimes
+                                .com%252F2014%252F03%252F18%252Fscience%252Fspace%252Fdetection-of-waves-in-space-buttresses-landmark-
+                                theory-of-big-bang.html%253Fsmid%253Dfb-share%26name%3DSpace%2BRipples%2BReveal%2BBig%2BBang%25E2%2580%
+                                2599s%2BSmoking%2BGun%26redirect_uri%3Dhttps%253A%252F%252Fwww.facebook.com%252F&cancel_url=https%3A%2F%
+                                2Fwww.facebook.com%2F%3Ferror_code%3D4201%26error_message%3DUser%2Bcanceled%2Bthe%2BDialog%2Bflow%23_%3
+                                D_&display=popup&locale=en_US" target="_blank">
+                                <li class="icon-fb"><i class="fab fa-facebook-f fb-icon"></i></li></a>
+                            <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.nytimes.com%2F2014%2F03%2F18%2Fscience%2Fspa
+                                ce%2Fdetection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html%3Fsmid%3Dtw-share&text=Spac
+                                e%20Ripples%20Reveal%20Big%20Bang%E2%80%99s%20Smoking%20Gun" target="_blank">
+                                <li class="icon-twit"><i class="fab fa-twitter twit-icon"></i></li></a>
+
                             <li class="icon-mail"><i class="fas fa-envelope email-icon"></i></li>
                             <li class="icon-share"><i class="fas fa-share share-icon"></i></li>
                             
@@ -86,8 +109,10 @@
                                 <i class="far fa-bookmark mark-icon"></i>
                             </li>
                             <li class="fa-stack">
-                                <i class="far fa-comment-alt comment-icon"></i>
-                                <!--<span class="icon-num">615</span>-->
+                                <i class="far fa-comment-alt fa-stack-2x comment-icon"></i>
+                                <span class=" fa-stack icon-num">
+                                    615
+                                </span>
                             </li>
     
                         </div>
@@ -99,6 +124,8 @@
             </div>
 
         </section>
+
+        <!-------------------------------------------- A R T I C L E  S E C T I O N --------------------------------------------------->
 
         <article class="article-section">
 
@@ -117,19 +144,21 @@
                 Dr. Guth wrote across the top of the page and drew a double box around it.<br><br>On Monday, Dr. 
                 Guth’s starship came in. Radio astronomers reported that they had seen the beginning of the Big 
                 Bang, and that his hypothesis, known undramatically as inflation, looked right.<br><br>Reaching back 
-                across 13.8 billion years to <a href="https://www.youtube.com/watch?v=ZJYc9YmKIO8&amp;feature=youtu.be" 
-                class="article-anchor">
+                across 13.8 billion years to <a href="https://www.youtube.com/watch?v=ZJYc9YmKIO8&ampfeature=youtu.be" 
+                class="article-anchor" target="_blank">
                 the first sliver of cosmic time</a> with telescopes at the South Pole, a 
                 team of astronomers led by John M. Kovac of the Harvard-Smithsonian Center for Astrophysics 
                 detected ripples in the fabric of space-time — so-called <a href="https://www.nytimes.com/2016/02/12
-                /science/ligo-gravitational-waves-black-holes-einstein.html" class="article-anchor">gravitational waves
-                </a> — the signature of 
+                /science/ligo-gravitational-waves-black-holes-einstein.html" class="article-anchor" target="_blank">
+                gravitational waves</a> — the signature of 
                 a universe being wrenched violently apart when it was roughly a trillionth of a trillionth of a 
                 trillionth of a second old. They are the long-sought smoking-gun evidence of inflation, proof, 
                 Dr. Kovac and his colleagues say, that Dr. Guth was correct.
             </p>
 
         </article>
+
+        <!---------------------------------------------- A S I D E  S E C T I O N --------------------------------------------------->
 
         <aside class="aside-cont">
 
@@ -141,28 +170,42 @@
 
                 <div class="aside-2">
 
-                    <a href="https://www.nytimes.com/2020/09/24/style/the-ugly-and-glorious-truth-about-american-supermarkets.html">
-                        <img src="https://static01.nyt.com/images/2020/09/22/fashion/22groceries1/22groceries1-square640.jpg?quality=75&
-                        auto=webp&disable=upscale&width=350" 
-                        alt="Man playing with apples Image">
-                        <p>The Ugly (and Glorious) Truth About American Supermarkets</p>
-                    </a>
+                    <a href="https://www.nytimes.com/2020/09/24/style/the-ugly-and-glorious-truth-about-american-supermarkets.html" target="_blank">
+                    <img src="images/man-apples.webp" alt="Man playing with apples Image"></a>
+                        <a href="https://www.nytimes.com/2020/09/24/style/the-ugly-and-glorious-truth-about-american-supermarkets.html" target="_blank">
+                        <p>The Ugly (and Glorious) Truth About American Supermarkets</p></a>
+                   
+                </div>
+
+                <div class="aside-2">
+
+                    <a href="https://www.nytimes.com/2020/09/24/arts/television/lorne-michaels-saturday-night-live-chris-rock.html?action" target="_blank">
+                    <img src="images/lorne.michaels.webp" alt="Lorne Michaels Image"></a>
+                        <a href="https://www.nytimes.com/2020/09/24/arts/television/lorne-michaels-saturday-night-live-chris-rock.html?action" target="_blank">
+                        <p>Lorne Michaels Isn't Sure 'S.N.L.' Can Pull This Off</p></a>
                     
                 </div>
 
                 <div class="aside-2">
 
-                    <a href="https://www.nytimes.com/2020/09/24/arts/television/lorne-michaels-saturday-night-live-chris-rock.html?action">
-                        <img src="https://static01.nyt.com/images/2020/09/26/arts/24SNL1-alt/24SNL1-alt-square640.jpg?quality=75&auto=webp&disable=upscale&width=350" 
-                        alt="Lorne Michaels Image">
-                        <p>Lorne Michaels Isn't Sure 'S.N.L.' Can Pull This Off</p>
-                    </a>
-
+                    <a href="https://www.nytimes.com/2020/09/29/books/to-make-their-own-way-in-world-zealy-daguerreotypes.html?action=click
+                        &algo=bandit-all-surfaces_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=335356025&impression_id=b6e9
+                        1171-0429-11eb-9a9b-65164ba43f99&index=2&pgtype=Article&region=ccolumn&req_id=715881643&surface=home-featured&action=
+                        click&module=editorContent&pgtype=Article&region=CompanionColumn&contentCollection=Trending" target="_blank">
+                    <img src="images/book.webp" alt="Lorne Michaels Image"></a>
+                        <a href="https://www.nytimes.com/2020/09/29/books/to-make-their-own-way-in-world-zealy-daguerreotypes.html?action=click
+                        &algo=bandit-all-surfaces_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=335356025&impression_id=b6e9
+                        1171-0429-11eb-9a9b-65164ba43f99&index=2&pgtype=Article&region=ccolumn&req_id=715881643&surface=home-featured&action=
+                        click&module=editorContent&pgtype=Article&region=CompanionColumn&contentCollection=Trending" target="_blank">
+                        <p>The First Photos of Enslaved People Raise Many Questions About the Ethics of Viewing</p></a>
+                    
                 </div>
 
             </div>
 
         </aside>
+
+        <!-------------------------------------------- A R T I C L E  S E C T I O N ---------------------------------------------------->
 
         <article class="article-section">
 
@@ -172,7 +215,7 @@
 
                 <div class="thnx-read">
                     <p>Thanks for reading The Times.</p>
-                    <a href="https://www.nytimes.com/subscription?campaignId=7UU8U">Subscribe to The Times</a>
+                    <a href="https://www.nytimes.com/subscription?campaignId=7UU8U" target="_blank">Subscribe to The Times</a>
                 </div>
                 
                 <hr class="thanks-hr2">
@@ -206,6 +249,8 @@
     
         </article>
     
+        <!-------------------------------------------- G R I D : I N F L A T I O N  I M G -------------------------------------------->
+
         <section class="theory-inflation">
 
             <h3>The Theory of Inflation</h4>
@@ -278,6 +323,8 @@
     
         </section>
     
+        <!----------------------------------- A R T I C L E  S E C T I O N : V I D E O - E N D --------------------------------------->
+
         <article class="article-section">
 
             <p>
@@ -293,7 +340,7 @@
                 prolific theorist who first described the most popular variant of inflation, known as chaotic 
                 inflation, in 1983, was about to go on vacation in the Caribbean last week when Chao-Lin Kuo, a 
                 Stanford colleague and a member of Dr. Kovac’s team, <a href="https://www.youtube.com/watch?v=ZlfIVEy_YOA" 
-                class="article-anchor">
+                class="article-anchor" target="_blank">
                 knocked on his door with a bottle of Champagne</a> to tell him the news.
             </p>
     
@@ -342,11 +389,12 @@
             </p>
     
             <div class="telescopeIMG-section">
-                <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-articleLarge.jpg?quality=75
-                &auto=webp&disable=upscale">
+
+                <img src="images/telescope.webp" alt="Bicep2 Telescope Image">
                 <p><span class="images-p-bold">The Bicep2 telescope, in the foreground, was used to detect 
                     the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.</span>
                     <span class="credits"> Steffen Richter/Associated Press</span></p>
+
             </div>
     
             <p>
@@ -395,31 +443,35 @@
                 not part of the team, “you wind up at inflation.”
             </p>
     
-            <p><span class="end-of-article">A version of this article appears in print on March 18, 2014, 
-                Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s 
-                Smoking Gun. 
-                <a href="https://www.parsintl.com/publication/the-new-york-times/">Order Reprints</a> | 
-                <a href="https://www.nytimes.com/section/todayspaper">Today's Paper</a> | 
-                <a href="https://www.nytimes.com/subscription?campaignId=48JQY">Subscribe</a>
-            </span></p>
+            <section class="end-of-article">
+
+                <p>A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition 
+                    with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. 
+                    <a href="https://www.parsintl.com/publication/the-new-york-times/" target="_blank">Order Reprints</a> | 
+                    <a href="https://www.nytimes.com/section/todayspaper" target="_blank">Today's Paper</a> | 
+                    <a href="https://www.nytimes.com/subscription?campaignId=48JQY" target="_blank">Subscribe</a>
+                </p>
+        
+                <div class="endArticle-btn-icons">
     
-            <div class="endArticle-btn-icons">
+                    <button type="button">read 615 comments</button>
+    
+                    <ul class="icons-cont-4 fourlast-icons">
+    
+                        <li><i class="fab fa-facebook-f fb-icon"></i></li>
+                        <li><i class="fab fa-twitter twit-icon"></i></li>
+                        <li><i class="fas fa-envelope email-icon"></i></li>
+                        <li><i class="fas fa-share share-icon"></i></li>
+    
+                    </ul>
+    
+                </div>
 
-                <button type="button">read 615 comments</button>
-
-                <ul class="icons-cont-4">
-
-                    <li><i class="fab fa-facebook-f fb-icon"></i></li>
-                    <li><i class="fab fa-twitter twit-icon"></i></li>
-                    <li><i class="fas fa-envelope email-icon"></i></li>
-                    <li><i class="fas fa-share share-icon"></i></li>
-
-                </ul>
-
-            </div>
+            </section>
 
         </article>
             
+        <!---------------------------- S U G G E S T E D / P O P U L A R  L I N K S  S E C T I O N ---------------------------------->
     
         <section class="more-popular-section">
     
@@ -429,7 +481,8 @@
                     
                     <hr>
 
-                    <h5 class="more-editorsTitle"><a href="https://www.nytimes.com/section/science/space">More in Space and Astronomy</a></h5>
+                    <h5 class="more-editorsTitle"><a href="https://www.nytimes.com/section/science/space" target="_blank">
+                        More in Space and Astronomy</a></h5>
 
                     <div class="more-row">
 
@@ -438,17 +491,16 @@
                             <div class="redirect-url">
 
                                 <a href="https://www.nytimes.com/2020/09/19/science/venus-planets-microbes-life.html?action=click&block=
-                                more_in_recirc&impression_id=1a35d4d0-028a-11eb-a6e2-61ee0e450462&index=0&pgtype=Article&region=footer">
-                                <img src="https://static01.nyt.com/images/2020/09/22/science/19SCI-OUTTHERE-VENUS1/19SCI-OUTTHERE-VENUS1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" 
-                                alt="Venus Planet Image"></a>
+                                more_in_recirc&impression_id=1a35d4d0-028a-11eb-a6e2-61ee0e450462&index=0&pgtype=Article&region=footer" target="_blank">
+                                <img src="images/venus.webp" alt="Venus Planet Image"></a>
                                 
                                 <div class="more-info">
 
                                     <a href="https://www.nytimes.com/2020/09/19/science/venus-planets-microbes-life.html?action=click&block=
-                                        more_in_recirc&impression_id=1a35d4d0-028a-11eb-a6e2-61ee0e450462&index=0&pgtype=Article&region=footer">
+                                        more_in_recirc&impression_id=1a35d4d0-028a-11eb-a6e2-61ee0e450462&index=0&pgtype=Article&region=footer" target="_blank">
                                     <span class="img-credit">JPL/NASA</span></a>
                                     <a href="https://www.nytimes.com/2020/09/19/science/venus-planets-microbes-life.html?action=click&block=
-                                        more_in_recirc&impression_id=1a35d4d0-028a-11eb-a6e2-61ee0e450462&index=0&pgtype=Article&region=footer">
+                                        more_in_recirc&impression_id=1a35d4d0-028a-11eb-a6e2-61ee0e450462&index=0&pgtype=Article&region=footer" target="_blank">
                                     <h3 class="img-title">On Venus, Cloudy With a Chance of Microbial Life</h3></a>
                                     <p class="img-date">Sept. 19</p>
 
@@ -463,17 +515,17 @@
                             <div class="redirect-url">
 
                                 <a href="https://www.nytimes.com/2020/09/19/science/wilson-observatory-bobcat-wildfires.html?action=
-                                click&block=more_in_recirc&impression_id=1a35fbe0-028a-11eb-a6e2-61ee0e450462&index=1&pgtype=Article&region
-                                =footer"><img src="https://static01.nyt.com/images/2020/09/18/science/18SCI-OUTTHERE-MTWILSON/18SCI-OUTTHERE-MTWILSON-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale" 
-                                alt="Mount Wilson Observatory Image"></a>
+                                    click&block=more_in_recirc&impression_id=1a35fbe0-028a-11eb-a6e2-61ee0e450462&index=1&pgtype=Article&region
+                                    =footer" target="_blank"><img src="images/center-space.webp" alt="Mount Wilson Observatory Image"></a>
 
                                 <div class="more-info">
 
                                     <a href="https://www.nytimes.com/2020/09/19/science/wilson-observatory-bobcat-wildfires.html?action=click&
-                                        block=more_in_recirc&impression_id=1a35fbe0-028a-11eb-a6e2-61ee0e450462&index=1&pgtype=Article&region=footer">
-                                    <span class="img-credit">Eric Thayer for The New York Times</span></a>
+                                        block=more_in_recirc&impression_id=1a35fbe0-028a-11eb-a6e2-61ee0e450462&index=1&pgtype=Article&region=footer" 
+                                        target="_blank"><span class="img-credit">Eric Thayer for The New York Times</span></a>
                                     <a href="https://www.nytimes.com/2020/09/19/science/wilson-observatory-bobcat-wildfires.html?action=click&
-                                        block=more_in_recirc&impression_id=1a35fbe0-028a-11eb-a6e2-61ee0e450462&index=1&pgtype=Article&region=footer">
+                                        block=more_in_recirc&impression_id=1a35fbe0-028a-11eb-a6e2-61ee0e450462&index=1&pgtype=Article&region=footer" 
+                                        target="_blank">
                                     <h3 class="img-title">Mount Wilson Observatory Survives a Trial by Fire</h3></a>
                                     <p class="img-date">Sept. 19</p>
 
@@ -488,17 +540,16 @@
                             <div class="redirect-url">
 
                                 <a href="https://www.nytimes.com/2020/09/15/science/sun-solar-cycle.html?action=click&block=more_in_recirc&impression_
-                                id=99cb20c0-03f1-11eb-9530-a3e9d69fb5be&index=2&pgtype=Article&region=footer">
-                                <img src="https://static01.nyt.com/images/2020/09/15/science/15SCI-SOLARCYCLE-image/15SCI-SOLARCYCLE-image-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale" 
-                                alt="Sun Image"></a>
+                                id=99cb20c0-03f1-11eb-9530-a3e9d69fb5be&index=2&pgtype=Article&region=footer" target="_blank">
+                                <img src="images/sun.webp" alt="Sun Image"></a>
                                 
                                 <div class="more-info">
 
                                     <a href="https://www.nytimes.com/2020/09/15/science/sun-solar-cycle.html?action=click&block=more_in_recirc&impression_
-                                    id=99cb20c0-03f1-11eb-9530-a3e9d69fb5be&index=2&pgtype=Article&region=footer">
+                                    id=99cb20c0-03f1-11eb-9530-a3e9d69fb5be&index=2&pgtype=Article&region=footer" target="_blank">
                                     <span class="img-credit"></span></a>
                                     <a href="https://www.nytimes.com/2020/09/15/science/sun-solar-cycle.html?action=click&block=more_in_recirc&impression_
-                                    id=99cb20c0-03f1-11eb-9530-a3e9d69fb5be&index=2&pgtype=Article&region=footer">
+                                    id=99cb20c0-03f1-11eb-9530-a3e9d69fb5be&index=2&pgtype=Article&region=footer" target="_blank">
                                     <h3 class="img-title-3">A Solar Forecast With Good News for Civilization as We Know It</h3></a>
                                     <p class="img-date">Sept. 16</p>
 
@@ -517,18 +568,16 @@
                             <div class="redirect-url">
 
                                 <a href="https://www.nytimes.com/2020/09/14/science/venus-life-clouds.html?action=click&block=more_in_
-                                recirc
-                                &impression_id=1a35fbe1-028a-11eb-a6e2-61ee0e450462&index=3&pgtype=Article&region=footer">
-                                <img src="https://static01.nyt.com/images/2020/09/14/science/14SCI-VENUS1-alt/14SCI-VENUS1-alt-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" 
-                                alt="Venus Planet Image"></a>
+                                recirc&impression_id=1a35fbe1-028a-11eb-a6e2-61ee0e450462&index=3&pgtype=Article&region=footer" target="_blank">
+                                <img src="images/venus2.webp" alt="Venus Planet Image"></a>
 
                                 <div class="more-info">
 
                                     <a href="https://www.nytimes.com/2020/09/14/science/venus-life-clouds.html?action=click&block=more_in_
-                                        recirc&impression_id=1a35fbe1-028a-11eb-a6e2-61ee0e450462&index=3&pgtype=Article&region=footer">
+                                        recirc&impression_id=1a35fbe1-028a-11eb-a6e2-61ee0e450462&index=3&pgtype=Article&region=footer" target="_blank">
                                     <span class="img-credit">PLANET-C Project Team/JAXA</span></a>
                                     <a href="https://www.nytimes.com/2020/09/14/science/venus-life-clouds.html?action=click&block=more_in_
-                                        recirc&impression_id=1a35fbe1-028a-11eb-a6e2-61ee0e450462&index=3&pgtype=Article&region=footer">
+                                        recirc&impression_id=1a35fbe1-028a-11eb-a6e2-61ee0e450462&index=3&pgtype=Article&region=footer" target="_blank">
                                     <h3 class="img-title">Life on Venus? Astronomers See a Signal in Its Clouds</h3></a>
                                     <p class="img-date">Sept. 17</p>
 
@@ -543,17 +592,16 @@
                             <div class="redirect-url">
 
                                 <a href="https://www.nytimes.com/2020/09/15/science/venus-life-rocketlab.html?action=click&block=
-                                more_in_recirc&impression_id=1a3622f0-028a-11eb-a6e2-61ee0e450462&index=4&pgtype=Article&region=footer">
-                                <img src="https://static01.nyt.com/images/2020/09/22/science/15SCI-ROCKETLAB1/15SCI-ROCKETLAB1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" 
-                                alt="Spacecraft Image"></a>
+                                more_in_recirc&impression_id=1a3622f0-028a-11eb-a6e2-61ee0e450462&index=4&pgtype=Article&region=footer" target="_blank">
+                                <img src="images/spaceship.webp" alt="Spacecraft Image"></a>
 
                                 <div class="more-info">
 
                                     <a href="https://www.nytimes.com/2020/09/15/science/venus-life-rocketlab.html?action=click&block=more_in_
-                                        recirc&impression_id=1a3622f0-028a-11eb-a6e2-61ee0e450462&index=4&pgtype=Article&region=footer">
+                                        recirc&impression_id=1a3622f0-028a-11eb-a6e2-61ee0e450462&index=4&pgtype=Article&region=footer" target="_blank">
                                     <span class="img-credit">Kieran Fanning/Rocket Lab</span><a>
                                     <a href="https://www.nytimes.com/2020/09/15/science/venus-life-rocketlab.html?action=click&block=more_in_
-                                        recirc&impression_id=1a3622f0-028a-11eb-a6e2-61ee0e450462&index=4&pgtype=Article&region=footer">
+                                        recirc&impression_id=1a3622f0-028a-11eb-a6e2-61ee0e450462&index=4&pgtype=Article&region=footer" target="_blank">
                                     <h3 class="img-title-2">The Search for Life on Venus Could Start With This Private Company</h3></a>
                                     <p class="img-date">Sept. 22</p>
 
@@ -568,17 +616,16 @@
                             <div class="redirect-url">
 
                                 <a href="https://www.nytimes.com/2020/09/13/science/nebra-sky-disk.html?action=click&block=more_in_recirc&
-                                impression_id=1a3622f1-028a-11eb-a6e2-61ee0e450462&index=5&pgtype=Article&region=footer">
-                                <img src="https://static01.nyt.com/images/2020/09/15/science/12TB-SKYDISC1/12TB-SKYDISC1-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale"
-                                alt="Old painting of the sky Image"></a>
+                                impression_id=1a3622f1-028a-11eb-a6e2-61ee0e450462&index=5&pgtype=Article&region=footer" target="_blank">
+                                <img src="images/paint-night.webp" alt="Old painting of the sky Image"></a>
                                 
                                 <div class="more-info">
 
                                     <a href="https://www.nytimes.com/2020/09/13/science/nebra-sky-disk.html?action=click&block=more_in_recirc&
-                                    impression_id=1a3622f1-028a-11eb-a6e2-61ee0e450462&index=5&pgtype=Article&region=footer">
+                                    impression_id=1a3622f1-028a-11eb-a6e2-61ee0e450462&index=5&pgtype=Article&region=footer" target="_blank">
                                     <span class="img-credit">Hildegard Burri-Bayer</span></a>
                                     <a href="https://www.nytimes.com/2020/09/13/science/nebra-sky-disk.html?action=click&block=more_in_recirc&
-                                    impression_id=1a3622f1-028a-11eb-a6e2-61ee0e450462&index=5&pgtype=Article&region=footer">
+                                    impression_id=1a3622f1-028a-11eb-a6e2-61ee0e450462&index=5&pgtype=Article&region=footer" target="_blank">
                                     <h3 class="img-title">How Old Is This Ancient Vision of the Stars?</h3></a>
                                     <p class="img-date">Sept. 13</p>
 
@@ -604,24 +651,21 @@
 
                             <div class="redirect-url">
     
-                                <a href="https://www.nytimes.com/2020/09/25/books/review/the-man-who-ran-washington-james-baker-peter-baker-
-                                    susan-glasser.html?action=click&algo=bandit-all-surfaces_desk_filter&block=editors_picks_recirc&fellback=
-                                    false&imp_id=221482410&impression_id=1ac8ed10-028a-11eb-a6e2-61ee0e450462&index=0&pgtype=Article&region=footer
-                                    &req_id=106723426&surface=home-featured">
-                                <img src="https://static01.nyt.com/images/2020/09/27/books/review/27Power-sub/27Power-sub-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" alt="James A. Baker III 
-                                    Image"></a>
+                                <a href="https://www.nytimes.com/2020/09/25/us/snow-days-online-school.html?action=click&algo=bandit-all-surfaces_
+                                desk_filter&block=editors_picks_recirc&fellback=false&imp_id=245127180&impression_id=db999640-042c-11eb-8314-6daeb6
+                                ec0c4b&index=0&pgtype=Article&region=footer&req_id=123287017&surface=home-featured" target="_blank">
+                                <img src="images/snow.webp" alt="Kids playing in the snow Image" ></a>
     
                                 <div class="more-info">
     
-                                    <a href="https://www.nytimes.com/2020/09/25/books/review/the-man-who-ran-washington-james-baker-peter-baker-
-                                        susan-glasser.html?action=click&algo=bandit-all-surfaces_desk_filter&block=editors_picks_recirc&fellback=false
-                                        &imp_id=221482410&impression_id=1ac8ed10-028a-11eb-a6e2-61ee0e450462&index=0&pgtype=Article&region=footer&req
-                                        _id=106723426&surface=home-featured"><span class="img-credit">Chester Higgins Jr./The New York Times</span></a>
-                                    <a href="https://www.nytimes.com/2020/09/25/books/review/the-man-who-ran-washington-james-baker-peter-baker-
-                                        susan-glasser.html?action=click&algo=bandit-all-surfaces_desk_filter&block=editors_picks_recirc&fellback=false
-                                        &imp_id=221482410&impression_id=1ac8ed10-028a-11eb-a6e2-61ee0e450462&index=0&pgtype=Article&region=footer&req
-                                        _id=106723426&surface=home-featured">
-                                    <h3 class="img-title">The Incredible Influence of James A. Baker III</h3></a>
+                                    <a href="https://www.nytimes.com/2020/09/25/us/snow-days-online-school.html?action=click&algo=bandit-all-surfaces_
+                                    desk_filter&block=editors_picks_recirc&fellback=false&imp_id=245127180&impression_id=db999640-042c-11eb-8314-6daeb
+                                    6ec0c4b&index=0&pgtype=Article&region=footer&req_id=123287017&surface=home-featured" target="_blank">
+                                    <span class="img-credit">Stephen Speranza for The New York Times</span></a>
+                                    <a href="https://www.nytimes.com/2020/09/25/us/snow-days-online-school.html?action=click&algo=bandit-all-surfaces_
+                                    desk_filter&block=editors_picks_recirc&fellback=false&imp_id=245127180&impression_id=db999640-042c-11eb-8314-6daeb6
+                                    ec0c4b&index=0&pgtype=Article&region=footer&req_id=123287017&surface=home-featured" target="_blank">
+                                    <h3 class="img-title">Sorry, Kids. Snow Days Are Probably Over.</h3></a>
                                     <p class="img-date">Sept. 25</p>
     
                                 </div>
@@ -634,23 +678,21 @@
     
                             <div class="redirect-url">
     
-                                <a href="https://www.nytimes.com/2020/09/22/sports/biggest-wave-surfed-nazare-maya-gabeira.html?action=click&
-                                    algo=bandit-all-surfaces_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=111717350&impression_id
-                                    =1ac8ed11-028a-11eb-a6e2-61ee0e450462&index=1&pgtype=Article&region=footer&req_id=106723426&surface=home-
-                                    featured"><img src="https://static01.nyt.com/images/2020/09/16/sports/bigwavepreview/bigwavepreview-threeByTwoSmallAt2X-v2.jpg?quality=75&auto=webp&disable=upscale" 
-                                    alt="A surfer in a big wave Image"></a>
+                                <a href="https://www.nytimes.com/2020/09/22/movies/toronto-international-film-festival.html?action=click&algo=bandit-all-
+                                surfaces_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=779364248&impression_id=db99e460-042c-11eb-8314-6dae
+                                b6ec0c4b&index=2&pgtype=Article&region=footer&req_id=123287017&surface=home-featured" target="_blank">
+                                    <img src="images/motorbike.webp" alt="A surfer in a big wave Image"></a>
                                 
                                 <div class="more-info">
     
-                                    <a href="https://www.nytimes.com/2020/09/22/sports/biggest-wave-surfed-nazare-maya-gabeira.html?action=click&
-                                        algo=bandit-all-surfaces_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=111717350&impression_id
-                                        =1ac8ed11-028a-11eb-a6e2-61ee0e450462&index=1&pgtype=Article&region=footer&req_id=106723426&surface=home-
-                                        featured"><br></a>
-                                    <a href="https://www.nytimes.com/2020/09/22/sports/biggest-wave-surfed-nazare-maya-gabeira.html?action=click&
-                                        algo=bandit-all-surfaces_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=111717350&impression_id
-                                        =1ac8ed11-028a-11eb-a6e2-61ee0e450462&index=1&pgtype=Article&region=footer&req_id=106723426&surface=home-
-                                        featured">
-                                    <h3 class="img-title">The Biggest Wave Surfed This Year</h3></a>
+                                    <a href="https://www.nytimes.com/2020/09/22/movies/toronto-international-film-festival.html?action=click&algo=bandit-all-
+                                    surfaces_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=779364248&impression_id=db99e460-042c-11eb-8314-6da
+                                    eb6ec0c4b&index=2&pgtype=Article&region=footer&req_id=123287017&surface=home-featured" target="_blank">
+                                    <span class="img-credit">via TIFF</span></a>
+                                    <a href="https://www.nytimes.com/2020/09/22/movies/toronto-international-film-festival.html?action=click&algo=bandit-all-
+                                    surfaces_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=779364248&impression_id=db99e460-042c-11eb-8314-6dae
+                                    b6ec0c4b&index=2&pgtype=Article&region=footer&req_id=123287017&surface=home-featured" target="_blank">
+                                    <h3 class="img-title">We Watched Fall Films Festivals From Home. Here's How It Went.</h3></a>
                                     <p class="img-date">Sept. 22</p>
     
                                 </div>
@@ -665,19 +707,18 @@
     
                                 <a href="https://www.nytimes.com/2020/09/27/sports/football/week-3-nfl-results.html?action=click&algo=bandit-
                                 all-surfaces_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=284399116&impression_id=1ac8ed12-
-                                028a-11eb-a6e2-61ee0e450462&index=2&pgtype=Article&region=footer&req_id=106723426&surface=home-featured">
-                                <img src="https://static01.nyt.com/images/2020/09/27/sports/27nfl-wwl-allen/merlin_177697821_6470fb60-88dc-400c-8f23-ab68fe82bbef-threeByTwoSmallAt2X.jpg?quality=75&auto=webp&disable=upscale" 
-                                alt="NFL's players in a game"></a>
+                                028a-11eb-a6e2-61ee0e450462&index=2&pgtype=Article&region=footer&req_id=106723426&surface=home-featured" target="_blank">
+                                <img src="images/nfl.webp" alt="NFL's players in a game"></a>
     
                                 <div class="more-info">
     
-                                    <a href="https://www.nytimes.com/2020/09/27/sports/football/week-3-nfl-results.html?action=click&algo=bandit-
-                                        all-surfaces_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=284399116&impression_id=1ac8ed12-
-                                        028a-11eb-a6e2-61ee0e450462&index=2&pgtype=Article&region=footer&req_id=106723426&surface=home-featured">
+                                    <a href="https://www.nytimes.com/2020/09/27/sports/football/week-3-nfl-results.html?action=click&algo=bandit-all-surfaces
+                                    _desk_filter&block=editors_picks_recirc&fellback=false&imp_id=284399116&impression_id=1ac8ed12-028a-11eb-a6e2-61ee0e45046
+                                    2&index=2&pgtype=Article&region=footer&req_id=106723426&surface=home-featured">
                                     <span class="img-credit">Adrian Kraus/Associated Press</span></a>
-                                    <a href="https://www.nytimes.com/2020/09/27/sports/football/week-3-nfl-results.html?action=click&algo=bandit-
-                                        all-surfaces_desk_filter&block=editors_picks_recirc&fellback=false&imp_id=284399116&impression_id=1ac8ed12-
-                                        028a-11eb-a6e2-61ee0e450462&index=2&pgtype=Article&region=footer&req_id=106723426&surface=home-featured">
+                                    <a href="https://www.nytimes.com/2020/09/27/sports/football/week-3-nfl-results.html?action=click&algo=bandit-all-surfaces
+                                    _desk_filter&block=editors_picks_recirc&fellback=false&imp_id=284399116&impression_id=1ac8ed12-028a-11eb-a6e2-61ee0e450462
+                                    &index=2&pgtype=Article&region=footer&req_id=106723426&surface=home-featured">
                                     <h3 class="img-title">What We Learned From Week 3 of the N.F.L. Season</h3></a>
                                     <p class="img-date">Sept. 28</p>
     
@@ -758,6 +799,8 @@
             
         </section>
 
+        <!---------------------------------- L I N K S  L I S T S - L A S T  S E C T I O N ----------------------------------------->
+
         <section class="links-sections">
 
             <div class="logo-goHome">
@@ -770,9 +813,9 @@
 
             <div class="all-links">
 
-                <div class="column-sec">
+                <nav class="column-sec">
 
-                    <p class="titles-col">news</p>
+                    <h3 class="titles-col">news</h3>
                     <p class="p-link">Home Page</p>
                     <p class="p-link">World</p>
                     <p class="p-link">U.S.</p>
@@ -787,11 +830,11 @@
                     <p class="p-link">Today's Paper</p>
                     <p class="p-link">Corrections</p>
 
-                </div>
+                </nav>
 
-                <div class="column-sec">
+                <nav class="column-sec">
 
-                    <p class="titles-col">opinion</p>
+                    <h3 class="titles-col">opinion</h3>
                     <p class="p-link">Today's Opinion</p>
                     <p class="p-link">Op-Ed Columnists</p>
                     <p class="p-link">Editorials</p>
@@ -800,11 +843,11 @@
                     <p class="p-link">Sunday Review</p>
                     <p class="p-link">Video: Opinion</p>
 
-                </div>
+                </nav>
 
-                <div class="column-sec">
+                <nav class="column-sec">
 
-                    <p class="titles-col">arts</p>
+                    <h3 class="titles-col">arts</h3>
                     <p class="p-link">Today's Arts</p>
                     <p class="p-link">Art & Design</p>
                     <p class="p-link">Books</p>
@@ -816,11 +859,11 @@
                     <p class="p-link">Theater</p>
                     <p class="p-link">Video: Arts</p>
 
-                </div>
+                </nav>
 
-                <div class="column-sec">
+                <nav class="column-sec">
 
-                    <p class="titles-col">living</p>
+                    <h3 class="titles-col">living</h3>
                     <p class="p-link">At Home</p>
                     <p class="p-link">Automobiles</p>
                     <p class="p-link">Games</p>
@@ -837,11 +880,11 @@
                     <p class="p-link">T Magazine</p>
                     <p class="p-link">Travel</p>
 
-                </div>
+                </nav>
 
-                <div class="column-sec">
+                <nav class="column-sec">
 
-                    <p class="titles-col">more</p>
+                    <h3 class="titles-col">more</h3>
                     <p class="p-link">Reader Center</p>
                     <p class="p-link">Wirecutter</p>
                     <p class="p-link">Live Events</p>
@@ -856,11 +899,11 @@
                     <p class="p-link">Times Journeys</p>
                     <p class="p-link">Manage My Account</p>
 
-                </div>
+                </nav>
 
-                <div class="column-sec">
+                <nav class="column-sec">
 
-                    <p class="titles-col">subscribe</p>
+                    <h3 class="titles-col">subscribe</h3>
                     <img src="images/home-delivery-icon.png"><p class="p-link link-bold">Home Delivery</p>
                     <img src="images/digit-subs-icon.png"><p class="p-link link-bold">Digital Subscriptions</p>
                     <img src="images/games-icon.png"><p class="p-link link-bold">Games</p>
@@ -874,13 +917,17 @@
                     <p class="p-link">Español</p>
                     <p class="p-link">中文网</p>
 
-                </div>
+                </nav>
 
             </div>
 
         </section>
 
+        <!------------------------------------------------------ F O O T E R ------------------------------------------------------>
+
         <footer class="footer-cont">
+
+            <div class="foot">
 
                 <p class="p-link">© 2020 The New York Times Company</p>
                 <p class="p-link">NYTCo</p>
@@ -896,7 +943,28 @@
                 <p class="p-link">Help</p>
                 <p class="p-link">Subscriptions</p>
 
+            </div>
+
         </footer>
+
+        <!------------------------------------------------ F I X E D  E N D - B A R -------------------------------------------------->
+
+        <nav class="end-bar">
+
+            <div class="subsMain-cont">
+
+                <p class="beg-subscribers">International readers subscribe for $0.50 a week.</p>
+
+                <div class="subs-up">
+
+                    <p class="subs-text">subscribe now</p>
+                    <i class="fas fa-chevron-up"></i>
+
+                </div>
+
+            </div>
+
+        </nav>
 
     </main>
 

@@ -129,6 +129,7 @@ li {
     font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     font-weight: 700;
     font-style: italic;
+    margin-bottom: 22px;
 }
 
 .telescope-img img {
@@ -139,17 +140,24 @@ li {
 }
 
 .telescope-img p {
-    width: 70%;
+    width: 80%;
     margin: 0;
     color: #666;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
-    font-size: 0.9375rem;
     line-height: 1.25rem;
 }
 
-.img-credit {
+.images-p-bold {
+    font-size: 17px;
+    margin-right: 7px;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+.credits {
     color: #888;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.001em;
+    font-size: 14px;
 }
 
 .author-icons {
@@ -238,9 +246,10 @@ li {
 }
 
 .comment-icon {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-left: 15px;
     opacity: .8;
+    z-index: 1;
 }
 
 .comment-icon:hover {
@@ -249,8 +258,11 @@ li {
 }
 
 .icon-num {
-    font-size: smaller;
-    float: left;
+    margin-left: 26px;
+    margin-bottom: 10px;
+    font-size: .8rem;
+    cursor: pointer;
+    color: black;
 }
 
 .fb-icon {
@@ -380,7 +392,7 @@ li {
 }
 
 .aside-2 img {
-    width: 75px;
+    width: 80px;
     height: 75px;
 }
 
@@ -388,7 +400,7 @@ li {
     width: 125px;
     height: 68px;
     font-family: nyt-cheltenham-small, georgia, "times new roman";
-    font-size: 14px;
+    font-size: 15px;
     line-height: 17px;
     color: rgb(51, 51, 51);
     font-weight: 500;
@@ -396,11 +408,20 @@ li {
     margin-top: 5px;
 }
 
+.aside-2 a {
+    text-decoration: none;
+}
+
+.aside-2 a:hover {
+    text-decoration: underline;
+}
+
 /***************************** A R T I C L E  S E C T I O N *******************************/
 
 .mid-Thanks-subscribe {
     clear: left;
     text-align: center;
+    margin-top: 25px;
 }
 
 .thanks-hr2 {
@@ -439,8 +460,7 @@ li {
 .theory-inflation {
     width: 945px;
     height: 753.6px;
-    margin: 0 auto 40px auto;
-
+    margin: 40px auto 60px auto;
 }
 
 .theory-inflation h3 {
@@ -455,13 +475,12 @@ li {
 .inflation-p {
     width: 904px;
     margin-top: -15px;
-    font-size: .875rem;
+    font-size: .8888rem;
     color: #666;
     line-height: 1.125rem;
     font-weight: 400;
     font-style: normal;
     font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
-
 }
 
 .grid-inflation{
@@ -478,7 +497,7 @@ li {
     line-height: 17px;
     font-weight: 300;
     color: #333;
-    background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+    background-image: url(images/inflation.png);
     background-size: cover;
     margin-bottom: 50px;
 }
@@ -513,12 +532,14 @@ li {
 .inflation-author {
     padding-top: 20px;
     clear: left;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: .87rem;
 }
 
 /************************ A R T I C L E  S E C T I O N : V I D E O - E N D *****************************/
 
 .video-section {
-    margin: 20px auto 20px auto;
+    margin: 40px auto 40px auto;
 }
 
 .video-section p {
@@ -531,21 +552,8 @@ li {
     line-height: .8em;
 }
 
-.images-p-bold {
-    font-size: 17px;
-    margin-right: 7px;
-    color: #666;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
-}
-
-.credits {
-    color: #888;
-    letter-spacing: 0.001em;
-    font-size: 14px;
-}
-
 .telescopeIMG-section {
-    margin: 20px auto 20px auto;
+    margin: 40px auto 40px auto;
 }
 
 .telescopeIMG-section p {
@@ -556,13 +564,13 @@ li {
     line-height: .8em;
 }
 
-.end-of-article {
+.end-of-article p {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 0.75rem;
     line-height: 1rem;
     width: calc(100% - 40px);
     max-width: 600px;
-    margin: 0px auto 1em;
+    margin: 25px auto 30px auto;
     color: rgb(102, 102, 102);
     width: 600px;
     height: 32px;
@@ -595,6 +603,10 @@ li {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.fourlast-icons {
+    margin-top: 0;
 }
 
 /************************* S U G G E S T E D / P O P U L A R  L I N K S  S E C T I O N **********************/
@@ -668,6 +680,7 @@ li {
     display: block;
     text-align: right;
     margin: 0;
+    color: rgb(153, 153, 153);
 }
 
 .img-title {
@@ -823,7 +836,7 @@ li {
 .titles-col {
     text-transform: uppercase;
     color: rgb(51, 51, 51);
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
@@ -854,12 +867,20 @@ li {
 
 /*************************************** F O O T E R ***********************************************/
 
+
 .footer-cont {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
     margin-top: 470px;
     margin-right: 80px;
     margin-left: 80px;
+    margin-bottom: 70px;
+    width: 90%;
 }
 
 .footer-cont p {
@@ -868,3 +889,73 @@ li {
     text-decoration: none;
     font-size: 10px;
 }
+
+/************************************ F I X E D  E N D - B A R **************************************/
+
+.end-bar {
+    float: left;
+    border-top: 1px solid black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+    height: 60px;
+    cursor: pointer;
+}
+
+.beg-subscribers {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    width: 28%;
+    margin-right: 250px;
+}
+
+.subsMain-cont {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.subs-up {
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+    margin-top: 4px;
+    margin-right: 60px;
+}
+
+.subs-text {
+    text-transform: uppercase;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 11.5px;
+    margin-top: 12px;
+}
+
+.fa-chevron-up {
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

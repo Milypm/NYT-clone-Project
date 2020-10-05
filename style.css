@@ -85,14 +85,6 @@
   color: black;
 }
 
-.subscribe-btn a {
-  text-decoration-line: none;
-}
-
-.log-in a {
-  text-decoration-line: none;
-}
-
 .space-cosmos a:hover {
   text-decoration: underline;
 }

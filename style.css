@@ -85,6 +85,14 @@
   color: black;
 }
 
+.subscribe-btn a {
+  text-decoration-line: none;
+}
+
+.log-in a {
+  text-decoration-line: none;
+}
+
 .space-cosmos a:hover {
   text-decoration: underline;
 }
@@ -100,10 +108,6 @@
   border-radius: 3px;
   width: 120px;
   height: 32px;
-}
-
-.subscribe-btn a {
-  text-decoration-line: none;
 }
 
 .btn-text {
@@ -123,10 +127,6 @@
   cursor: pointer;
   width: 63px;
   height: 32px;
-}
-
-.log-in a {
-  text-decoration-line: none;
 }
 
 .endArticle-btn-icons button {
@@ -609,7 +609,7 @@
   justify-content: space-between;
   width: 600px;
   height: 30px;
-  margin-top: 0 auto 40px auto;
+  margin-top: 1px auto 40px auto;
 }
 
 .fourlast-icons {

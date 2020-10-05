@@ -102,6 +102,10 @@
   height: 32px;
 }
 
+.subscribe-btn a {
+  text-decoration-line: none;
+}
+
 .btn-text {
   color: rgb(255, 255, 255);
   font-size: 10px;
@@ -119,6 +123,10 @@
   cursor: pointer;
   width: 63px;
   height: 32px;
+}
+
+.log-in a {
+  text-decoration-line: none;
 }
 
 .endArticle-btn-icons button {
@@ -198,7 +206,7 @@
 
 .author-icons {
   margin-top: 40px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   width: 48%;
 }
 
@@ -601,7 +609,7 @@
   justify-content: space-between;
   width: 600px;
   height: 30px;
-  margin-top: 0px auto 40px auto;
+  margin-top: 0 auto 40px auto;
 }
 
 .fourlast-icons {
@@ -715,7 +723,7 @@
 }
 
 .img-title-2 {
-  margin-top: 0px;
+  margin-top: 0;
   padding: 0;
   width: 100%;
   font-size: 1.11rem;

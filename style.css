@@ -165,13 +165,15 @@
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-style: italic;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
+  display: block;
 }
 
 .telescope-img img {
   width: 945px;
   height: 532px;
   background-size: contain;
+  margin-top: 0;
   margin-bottom: 5px;
 }
 
@@ -879,7 +881,7 @@
   border-top: 1px solid #d3d3d3;
 }
 
-.footer-cont p {
+.foot p {
   color: #666;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   text-decoration: none;

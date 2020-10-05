@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 2px 5px 10px 10px;
+  margin: 2px 15px 10px 45px;
   height: 20px;
   padding-bottom: 2px;
   margin-right: 25px;
@@ -164,7 +164,7 @@
   color: #121212;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
-  font-style: italic; 
+  font-style: italic;
   margin-bottom: 22px;
 }
 
@@ -187,7 +187,7 @@
   font-size: 17px;
   margin-right: 7px;
   color: #666;
-  font-family: nyt-imperial ,georgia, 'times new roman', times, serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .credits {
@@ -198,7 +198,8 @@
 
 .author-icons {
   margin-top: 40px;
-  margin-bottom: -30px;
+  margin-bottom: 0px;
+  width: 48%;
 }
 
 .author {
@@ -220,23 +221,15 @@
 }
 
 .nav-date-icons {
-  width: 48%;
-  margin: 30px auto;
-  display: block;
-}
-
-.nav-date-icons ul {
   display: flex;
+  width: 100%;
   justify-content: space-between;
-  width: 600px;
-  height: 69px;
-  margin-left: -40px;
+  margin-left: 330px;
 }
 
 .date {
   display: block;
   text-align: left;
-  width: 100%;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   color: #333;
   font-size: 14px;
@@ -246,17 +239,14 @@
 
 .icons-cont1 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-start;
-  margin: 0;
-  width: 1000px;
+  margin-left: 150px;
 }
 
 .icons-cont-4 {
   display: flex;
-  justify-content: space-around;
-  width: 195px;
-  margin-left: 90px;
+  margin-right: 15px;
 }
 
 .fb-icon {
@@ -267,9 +257,9 @@
   opacity: 0.8;
   color: black;
   padding: 7px 5px;
-  width: 75%;
+  width: 50%;
   text-align: center;
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 .fb-icon:hover {
@@ -284,10 +274,11 @@
   background-color: #e8e8e8;
   border: 2px solid #e8e8e8;
   padding: 7px 5px;
-  width: 80%;
+  width: 40%;
   text-align: center;
   opacity: 0.8;
   color: black;
+  margin-right: 21px;
 }
 
 .twit-icon:hover {
@@ -301,11 +292,12 @@
   border-radius: 100%;
   background-color: #e8e8e8;
   border: 2px solid #e8e8e8;
-  padding: 7px 5px;
+  padding: 7px 8px;
   width: 80%;
   text-align: center;
   opacity: 0.8;
   color: black;
+  margin-right: 15px;
 }
 
 .email-icon:hover {
@@ -319,7 +311,7 @@
   border-radius: 100%;
   background-color: #e8e8e8;
   border: 2px solid #e8e8e8;
-  padding: 7px 5px;
+  padding: 7px 8px;
   width: 80%;
   text-align: center;
   opacity: 0.8;
@@ -336,7 +328,6 @@
   display: flex;
   justify-content: space-between;
   margin-top: 0;
-  width: 50px;
 }
 
 .mark-icon {
@@ -358,7 +349,7 @@
 }
 
 .comment-icon:hover {
-  opacity: .3;
+  opacity: 0.3;
   cursor: pointer;
 }
 
@@ -381,7 +372,7 @@
 }
 
 .article-section p {
-  font-size: 1.40rem;
+  font-size: 1.4rem;
   line-height: 1.875rem;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
@@ -405,7 +396,7 @@
 
 .aside-cont hr {
   width: 100%;
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
   height: 1px;
   border: 0 none;
   margin-top: -5px;
@@ -488,11 +479,11 @@
 }
 
 .theory-inflation h3 {
-  font-size: 1.20rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   font-weight: 700;
   font-style: normal;
-  font-family: nyt-cheltenham, georgia, "times new roman", times,serif;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   color: #000;
 }
 
@@ -504,7 +495,7 @@
   line-height: 1.125rem;
   font-weight: 400;
   font-style: normal;
-  font-family: nyt-cheltenham-sh, georgia, "times new roman", times,serif;
+  font-family: nyt-cheltenham-sh, georgia, "times new roman", times, serif;
 }
 
 .grid-inflation {
@@ -512,8 +503,8 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
-  "inflation-descrip inflation-descrip inflation-descrip inflation-descripExtra"
-  "inflation-descrip inflation-descripExtra inflation-descrip inflation-descrip";
+    "inflation-descrip inflation-descrip inflation-descrip inflation-descripExtra"
+    "inflation-descrip inflation-descripExtra inflation-descrip inflation-descrip";
   width: 945px;
   height: 576px;
   font-family: nyt-franklin, arial, helvetica, sans-serif;
@@ -568,11 +559,12 @@
 
 .video-section iframe {
   border: transparent;
+  width: 100%;
 }
 
 .video-section p {
   color: #666;
-  font-family: nyt-imperial, georgia, 'times new roman', times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   text-align: left;
   display: block;
   padding: 0;
@@ -608,24 +600,8 @@
   display: flex;
   justify-content: space-between;
   width: 600px;
-  height: 36px;
-  margin-top: 0 auto 40px auto;
-}
-
-.endArticle-btn-icons button {
-  width: 330px;
-  height: 36px;
-  background-color: rgb(86, 123, 149);
-  border: 1px solid rgb(50, 104, 145);
-  border-radius: 3px;
-  color: white;
-  display: block;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 0.8125rem;
-  font-weight: 550;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  cursor: pointer;
+  height: 30px;
+  margin-top: 0px auto 40px auto;
 }
 
 .fourlast-icons {
@@ -699,7 +675,7 @@
   display: flex;
   flex-direction: column;
   justify-self: self-start;
-  font-family: nyt-cheltenham, georgia, "times new roman", times,serif;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   width: 272px;
 }
 
